@@ -7,7 +7,7 @@ import javax.security.enterprise.identitystore.DatabaseIdentityStoreDefinition;
 
 @FormAuthenticationMechanismDefinition(
         loginToContinue = @LoginToContinue(
-                loginPage = "/index.html",
+                loginPage = "/login.html",
                 errorPage = "/error.html"))
 @DatabaseIdentityStoreDefinition(
         dataSourceLookup = "java:jboss/datasources/DemoDS",
